@@ -1,4 +1,4 @@
-# nosql
+# NoSql Solution
 ##Oleksandr Zhorniak, ozhorniak@ug.edu.pl
 
 Rozwiązania zadań z przedmiotu *Bazy NoSQL*:
@@ -12,6 +12,6 @@ Rozwiązania zadań z przedmiotu *Bazy NoSQL*:
 
 Informacje o komputerze na którym były wykonywane obliczenia:
 
-* Intel Core i5
+* Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz
 * 8Gb RAM,HD: 500Gb
 * Ubuntu Linux 14.04 LTS,
