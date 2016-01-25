@@ -1,4 +1,4 @@
-Exploration Data Analize (EDA)
+=Exploration Data Analize (EDA)
 ================================================================================
 
 Task 2 - Import Big Dataset to Databases. And count some data using DB tools.
@@ -21,7 +21,7 @@ Task 2a.
   mongoimport --db seatpepd --collection incedent_response_911 --type csv --headerline --file Seattle_Police_Department_911_Incident_Response.csv
 
   Result importing to MongoDB:
-  (images/import_to_mongo.png)
+  [icon="./images/import_to_mongo.png"](images/import_to_mongo.png)
 
   Import time: 1.46 min.
 
@@ -32,7 +32,7 @@ Postgresql it's the RDBMS. Since release 9.3 version, Postgresql supporting some
 
   Result importing to Postgresql:
 
-  Query returned successfully: 1157100 rows affected, 16927 ms execution time.(Winer!).
+  Query returned successfully: 1157100 rows affected, 16927 ms execution time.(~ 0.282 sec. Winer!).
 
 
   2. Calculate imported records
