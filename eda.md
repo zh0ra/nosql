@@ -26,13 +26,13 @@ Task 2a.
 
   Result importing dataset to MongoDB.
 
-![Importing dataset to MongoDB.](import-to-mongo.png)
+![Importing dataset to MongoDB.](images/import-to-mongo.png)
 
   Import time: 1.46 min.
 
 CPU and Memory using during import dataset.
 
-![CPU and Memory using during import dataset.](import-to-mongo-cpu-use.png)
+![CPU and Memory using during import dataset.](images/import-to-mongo-cpu-use.png)
 
 
 
@@ -41,8 +41,8 @@ CPU and Memory using during import dataset.
 Postgresql it's the RDBMS. Since release 9.3 version, Postgresql supporting some functions of NoSQL technology for working with JSON documents. But today I'll be using Postgresql as the classic RDBMS. That's why I need to create the database and table inside the Postgresql and after that I'll can import my dataset inside that.  [First script](scripts/create_table_incedent_esponce_911.sql)  to create Database and Table, after that I can copy Dataset into Database using  [Second script](scripts/copy_incedent_esponce_911.sql).
 
   Result importing to Postgresql:
-
-  Query returned successfully: 1157100 rows affected, 16927 ms execution time.(~ 0.282 sec. Winer!).
+![Importing dataset to MongoDB.](images/import-to-postgre.png)
+  Query returned successfully: 1157100 rows affected, 14674 ms execution time.(~ 0.25 sec. Winer!).
 
 
   2. Calculate imported records
