@@ -21,8 +21,9 @@ Task 2a.
   mongoimport --db seatpepd --collection incedent_response_911 --type csv --headerline --file Seattle_Police_Department_911_Incident_Response.csv
 
   Result importing to MongoDB:
-[[import_to_mongo,Image of import dataset to MongoDB]]
-  image::images/import_to_mongo.png["Import dataset to MongoDB", height=32]
+[[import_to_mongo,Image import dataset to MongoDB]]
+.This screenshot of info about import dataset to MongoDB.
+  image::import_to_mongo.png["Import dataset to MongoDB", height=32]
 
   Import time: 1.46 min.
 
