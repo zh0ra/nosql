@@ -5,7 +5,7 @@ v1.0, 2015-16
 :doctype: book
 
 Task 2 - Import Big Dataset to Databases. And count some data using DB tools.
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - - -
 Using databases:
 
 1. MongoDB 3.2.
