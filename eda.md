@@ -1,8 +1,7 @@
 Exploration Data Analize (EDA)
---------------------------------------------------------------------------------
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - - -
 Oleksandr Zhorniak
 v1.0, 2015-16
-:doctype: book
 
 Task 2 - Import Big Dataset to Databases. And count some data using DB tools.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - - -
@@ -16,6 +15,7 @@ For testing dataset I had found and downloaded from the Seatle Goverment site (d
  the report dataset with title ["Seattle Police Department 911 Incident Response"](https://data.seattle.gov/Public-Safety/Seattle-Police-Department-911-Incident-Response/3k2p-39jp), file in a .cvs format.
 
 Task 2a.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - - -
 
   Import dataset to MongoDB.
 
@@ -29,6 +29,12 @@ Task 2a.
 ![Importing dataset to MongoDB.](import-to-mongo.png)
 
   Import time: 1.46 min.
+
+CPU and Memory using during import dataset.
+
+![CPU and Memory using during import dataset.](import-to-mongo-cpu-use.png)
+
+
 
  Import dataset to Postgresql.
 
