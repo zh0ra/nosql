@@ -24,7 +24,7 @@ Task 2a.
 
 [[import_to_mongo]]
 . Import MongoDB
-  image::import_to_mongo.png[]
+  image::import_to_mongo.png[link="import_to_mongo.png"]
 
   Import time: 1.46 min.
 
