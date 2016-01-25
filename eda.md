@@ -22,7 +22,23 @@ Task 2a.
 
   Result importing to MongoDB:
 
-  image::import_to_mongo.png[]
+  image:import_to_mongo.png[]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   Import time: 1.46 min.
 
