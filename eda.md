@@ -8,7 +8,7 @@ Task 2 - Import Big Dataset to Databases. And count some data using DB tools.
 --------------------------------------------------------------------------------
 Using databases:
 
-1. MongoDB 3.2. image::mongodb-logo.png[]
+1. MongoDB 3.2. [mongo-logo](mongodb-logo.png)
 
 2. Postgresql 9.3
 
@@ -24,10 +24,9 @@ Task 2a.
 
   mongoimport --db seatpepd --collection incedent_response_911 --type csv --headerline --file Seattle_Police_Department_911_Incident_Response.csv
 
-  Result importing to MongoDB.
+  Result importing dataset to MongoDB.
 
-
-image::import-to-mongo.png[]
+[Importing dataset to MongoDB.](import-to-mongo.png)
 
   Import time: 1.46 min.
 
