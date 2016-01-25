@@ -43,7 +43,7 @@ Postgresql it's the RDBMS. Since release 9.3 version, Postgresql supporting some
 
   Result importing to Postgresql:
 
-![Importing dataset to MongoDB.](images/import-to-postgre.png)
+![Importing dataset to MongoDB.](images/import-to-postgresql.png)
 
   Query returned successfully: 1157100 rows affected, 21529 ms execution time.(~ 0.22 sec. Winer!).
 
