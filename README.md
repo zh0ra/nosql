@@ -14,4 +14,4 @@ Informacje o komputerze na którym były wykonywane obliczenia:
 
 * Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz
 * 8Gb RAM,HD: 500Gb
-* Ubuntu Linux 14.04 LTS,
+* Ubuntu 14.04 x86_64 GNU/Linux
