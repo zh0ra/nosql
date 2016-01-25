@@ -1,4 +1,5 @@
 Exploration Data Analize (EDA)
+--------------------------------------------------------------------------------
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - - -
 Oleksandr Zhorniak
 v1.0, 2015-16
@@ -41,7 +42,9 @@ CPU and Memory using during import dataset.
 Postgresql it's the RDBMS. Since release 9.3 version, Postgresql supporting some functions of NoSQL technology for working with JSON documents. But today I'll be using Postgresql as the classic RDBMS. That's why I need to create the database and table inside the Postgresql and after that I'll can import my dataset inside that.  [First script](scripts/create_table_incedent_esponce_911.sql)  to create Database and Table, after that I can copy Dataset into Database using  [Second script](scripts/copy_incedent_esponce_911.sql).
 
   Result importing to Postgresql:
+
 ![Importing dataset to MongoDB.](images/import-to-postgre.png)
+
   Query returned successfully: 1157100 rows affected, 14674 ms execution time.(~ 0.25 sec. Winer!).
 
 
