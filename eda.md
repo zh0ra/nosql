@@ -7,8 +7,7 @@ Using databases:
 2. Postgresql 9.3
 
 For testing dataset I had found and downloaded from the Seatle Goverment site (data.seattle.gov)
- the report dataset with title "Seattle Police Department 911 Incident Response", file in a .cvs format.
-[link] https://data.seattle.gov/Public-Safety/Seattle-Police-Department-911-Incident-Response/3k2p-39jp
+ the report dataset with title ["Seattle Police Department 911 Incident Response"](https://data.seattle.gov/Public-Safety/Seattle-Police-Department-911-Incident-Response/3k2p-39jp), file in a .cvs format.
 
 1. Preparation data:
 
@@ -24,5 +23,5 @@ For testing dataset I had found and downloaded from the Seatle Goverment site (d
 
 1.2. Import dataset to Postgresql.
 
-Postgresql it's the RDBMS. Since release 9.3 version, Postgresql supporting some functions of NoSQL technology for working with JSON documents. But today I'll be using Postgresql as the classic RDBMS. That's why I need to create database and table inside Postgresql and after that I'll can import my dataset inside that.  [First script](scripts/create_table_incedent_esponce_911.sql)  to create Database and Table, after that I can copy Dataset into Database using  [Second script](scripts/copy_incedent_esponce_911.sql). 
+Postgresql it's the RDBMS. Since release 9.3 version, Postgresql supporting some functions of NoSQL technology for working with JSON documents. But today I'll be using Postgresql as the classic RDBMS. That's why I need to create the database and table inside the Postgresql and after that I'll can import my dataset inside that.  [First script](scripts/create_table_incedent_esponce_911.sql)  to create Database and Table, after that I can copy Dataset into Database using  [Second script](scripts/copy_incedent_esponce_911.sql).
   Result importing to Postgresql:
