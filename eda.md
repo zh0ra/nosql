@@ -15,7 +15,7 @@ Using databases:
 For testing dataset I had found and downloaded from the Seatle Goverment site (data.seattle.gov)
  the report dataset with title ["Seattle Police Department 911 Incident Response"](https://data.seattle.gov/Public-Safety/Seattle-Police-Department-911-Incident-Response/3k2p-39jp), file in a .cvs format.
 
-Task 2a.
+Task 2a. Import dataset to MongoDB and Postgresql
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - - -
 
   Import dataset to MongoDB.
@@ -45,9 +45,19 @@ Postgresql it's the RDBMS. Since release 9.3 version, Postgresql supporting some
 
 ![Importing dataset to MongoDB.](images/import-to-postgresql.png)
 
-  Query returned successfully: 1157100 rows affected, 21529 ms execution time.(~ 0.22 sec. Winer!).
+  Query returned successfully: 1157100 rows affected, 21592 ms execution time.(~ 0.22 sec. Winer!).
+
+Task 2b. Calculate imported records.
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - -
+![Calculate imported rows](images/count_rows_mongo_postgre.png)
+
+Both Database calculated 1157100 rows.
+
+Task 2c. Calculate some Aggregation on both Databases.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - -
 
 
-  2. Calculate imported records
-  3. Calculate some amount Aggregation
+
+
+
   4. Find in Internet GeoJSON objects, import to database and create 4 geospatial queries(at list forPoint, LineString and Polygon)
