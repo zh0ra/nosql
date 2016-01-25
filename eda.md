@@ -22,23 +22,7 @@ Task 2a.
 
   Result importing to MongoDB:
 
-  image:import_to_mongo.png[]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  image:https://github.com/zh0ra/nosql/blob/master/import_to_mongo.png[]
 
   Import time: 1.46 min.
 
