@@ -1,4 +1,4 @@
-=Exploration Data Analize (EDA)
+Exploration Data Analize (EDA)
 ================================================================================
 
 Task 2 - Import Big Dataset to Databases. And count some data using DB tools.
@@ -22,7 +22,7 @@ Task 2a.
 
   Result importing to MongoDB:
 
-  image:images/import_to_mongo.png["Import dataset to MongoDB", height=32]
+  image::images/import_to_mongo.png["Import dataset to MongoDB", height=32]
 
   Import time: 1.46 min.
 
