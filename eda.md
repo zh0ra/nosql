@@ -1,5 +1,8 @@
 Exploration Data Analize (EDA)
 ================================================================================
+Oleksandr Zhorniak
+v1.0, 2015-16
+:doctype: book
 
 Task 2 - Import Big Dataset to Databases. And count some data using DB tools.
 --------------------------------------------------------------------------------
