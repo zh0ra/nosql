@@ -10,9 +10,23 @@ For testing dataset I had found and downloaded from the Seatle Goverment site (d
  the report dataset with title "Seattle Police Department 911 Incident Response", file in a .cvs format.
 [link] https://data.seattle.gov/Public-Safety/Seattle-Police-Department-911-Incident-Response/3k2p-39jp
 
-Step 1. Preparation data:
+1. Preparation data:
+
+1.1.  Import dataset to MongoDB.
 
   For importing the dataset, that I mentioned above into the Mongodb database I'll use
   mongoimport tool that command for import data to MongoDB:
 
   mongoimport --db seatpepd --collection incedent_response_911 --type csv --headerline --file Seattle_Police_Department_911_Incident_Response.csv
+
+  Result importing to Mongodb:
+
+
+1.2. Import dataset to Postgresql.
+
+  Postgresql it's RDMS. Since released 9.3 version Postgresql support NoSQl technology and
+  it have the operators that are available for use with JSON. But today I'll be using Postgresql as the
+  classic RDMS. That's I need to create database and table inside Postgresql and after that I'll
+  can import my dataset. [First script](scripts/create_table_incedent_esponce_911.sql) to create Database and Table, after that I copy Dataset into Database using [Second script](scripts/copy_incedent_esponce_911.sql).
+
+  Result importing to Postgresql:
