@@ -45,7 +45,7 @@ Postgresql it's the RDBMS. Since release 9.3 version, Postgresql supporting some
 
 ![Importing dataset to MongoDB.](images/import-to-postgre.png)
 
-  Query returned successfully: 1157100 rows affected, 14674 ms execution time.(~ 0.25 sec. Winer!).
+  Query returned successfully: 1157100 rows affected, 21529 ms execution time.(~ 0.22 sec. Winer!).
 
 
   2. Calculate imported records
