@@ -8,9 +8,9 @@ Task 2 - Import Big Dataset to Databases. And count some data using DB tools.
 --------------------------------------------------------------------------------
 Using databases:
 
-1. MongoDB 3.2. ![mongo-logo](mongodb-logo.png)
+1. MongoDB 3.2.
 
-2. Postgresql 9.3
+2. Postgresql 9.3.
 
 For testing dataset I had found and downloaded from the Seatle Goverment site (data.seattle.gov)
  the report dataset with title ["Seattle Police Department 911 Incident Response"](https://data.seattle.gov/Public-Safety/Seattle-Police-Department-911-Incident-Response/3k2p-39jp), file in a .cvs format.
