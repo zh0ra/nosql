@@ -20,9 +20,9 @@ Task 2a.
 
   mongoimport --db seatpepd --collection incedent_response_911 --type csv --headerline --file Seattle_Police_Department_911_Incident_Response.csv
 
-  Result importing to MongoDB:
+  Result importing to MongoDB.
 
-  image:https://github.com/zh0ra/nosql/blob/master/import_to_mongo.png[]
+image:import_to_mongo.png[]
 
   Import time: 1.46 min.
 
