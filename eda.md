@@ -5,7 +5,8 @@ Task 2 - Import Big Dataset to Databases. And count some data using DB tools.
 --------------------------------------------------------------------------------
 Using databases:
 
-1. MongoDB 3.2.
+1. MongoDB 3.2. image::mongodb-logo.png[]
+
 2. Postgresql 9.3
 
 For testing dataset I had found and downloaded from the Seatle Goverment site (data.seattle.gov)
@@ -23,7 +24,7 @@ Task 2a.
   Result importing to MongoDB.
 
 
-image::importmongo.png[]
+image::import-to-mongo.png[]
 
   Import time: 1.46 min.
 
