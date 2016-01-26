@@ -86,9 +86,9 @@ Finally, we have the such [result](scripts/result_group_q1.json):
 	{
 		"Event Clearance Group" : "TRAFFIC RELATED CALLS",
 		"Total" : 208702
-	},...
+	}
 ]
-
+...
 ```  
 
 Task 2d. Working with GeoJSON objects.

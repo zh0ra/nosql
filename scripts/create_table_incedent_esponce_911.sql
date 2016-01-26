@@ -7,11 +7,11 @@ Create data base
 CREATE DATABASE seattlepd;
 
 #Second step, create table for importing dataset
-CREATE TABLE incedent_responce_911 (
- CAD_CDW_ID VARCHAR(25),
- CAD_Event_Number VARCHAR(25),
- General_Offense_Number VARCHAR(25),
- Event_Clearance_Code VARCHAR(25),
+CREATE TABLE incedent_responce_911_2 (
+ CAD_CDW_ID NUMERIC(25),
+ CAD_Event_Number NUMERIC(25),
+ General_Offense_Number NUMERIC(25),
+ Event_Clearance_Code NUMERIC(25),
  Event_Clearance_Description VARCHAR(250),
  Event_Clearance_SubGroup VARCHAR(50),
  Event_Clearance_Group VARCHAR(50),
