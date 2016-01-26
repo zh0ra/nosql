@@ -53,11 +53,11 @@ Task 2b. Calculate imported records.
 
 Both Database calculated 1157100 rows.
 
-Task 2c. Calculate some Aggregation on both Databases.
+Task 2c. Create some simple Aggregation on both Databases.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - -
 
 
+Task 2d. Working with GeoJSON objects.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - -
 
-
-
-  4. Find in Internet GeoJSON objects, import to database and create 4 geospatial queries(at list forPoint, LineString and Polygon)
+Find in Internet GeoJSON objects, import to database and create 4 geospatial queries(at list forPoint, LineString and Polygon)
