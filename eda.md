@@ -59,7 +59,7 @@ So! Now I created simple aggregation function it's the group function wich to ag
 
 Here the grouping script:
 
-![javascript](scripts/q1_group.js)
+[javascript](scripts/q1_group.js)
 
 Ok! Then we should to apply this command in bash:
 
@@ -67,7 +67,7 @@ mongo --quiet q1_group.js > result_group_q1.txt
 
 Finally, we have the such result:Task 2d. Working with GeoJSON objects.
 
-![text](scripts/result_group_q1.txt)   
+[text](scripts/result_group_q1.txt)   
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - -
 
