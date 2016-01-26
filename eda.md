@@ -57,9 +57,19 @@ Task 2c. Create some simple Aggregation on both Databases.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - -
 So! Now I created simple aggregation function it's the group function wich to aggregate each type of "Event Clearance Group" and calculate how many types(and rows that types) of "Event Clearance Group" we have in collection.
 
-Here the grouping script:
+[Here the grouping script](scripts/q1_group.js):
+
 ```javascript
-scripts/q1_group.js
+var connect = new Mongo();
+var db = connect.getDB("seatlepd");
+var incedent = db.getCollection("incedent_response_911");
+
+var group = function(){
+  printjson(
+    incedent.group({key:{"Event Clearance Group": true}, initial : {Total:0},reduce : function(items, prev){prev.Total +=1}})
+);
+}
+group();
 ```
 
 Ok! Then we should to apply this command in bash:
