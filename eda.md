@@ -90,8 +90,9 @@ Finally, we have the such [result](scripts/result_group_q1.json):
 ]
 ...
 ```  
-For Postgresql DB on equal group query I had follow result:
-[Here the SELECT with grouping script for Postgresql](scripts/group_query1_postgres.sql):
+For Postgresql DB on equal group query I have got following result:
+
+[Here is the SELECT  script with GROUP aggregation for Postgresql](scripts/group_query1_postgres.sql):
 
 ```sql
 SELECT
@@ -106,8 +107,8 @@ ORDER BY
 ```
 
  ![Importing dataset to MongoDB.](images/group_query1_postgres.png)
- 
-And [result file](scripts/result_group_q1_postgres.csv) for Postgresql case:
+
+[Result data file](scripts/result_group_q1_postgres.csv) for Postgresql case.
 
 Task 2d. Working with GeoJSON objects.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - -
