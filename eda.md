@@ -55,9 +55,14 @@ Both Database calculated 1157100 rows.
 
 Task 2c. Create some simple Aggregation on both Databases.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - -
+So! Now I created simple aggregation function it's the group function wich well  aggregate each type of "Event Clearance Group" and calculate how many types(and rows that types) of "Event Clearance Group" we have in collection.
+Here the grouping script:
+![q1_group](scripts/q1_group.js)   
+Ok! Then we should to apply this command in bash:
+mongo --quiet q1_group.js > result_group_q1.txt
+Finally, we have the such result:Task 2d. Working with GeoJSON objects.
+[result_group_q1](scripts/result_group_q1.txt)   
 
-
-Task 2d. Working with GeoJSON objects.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - -
 
 Find in Internet GeoJSON objects, import to database and create 4 geospatial queries(at list forPoint, LineString and Polygon)
