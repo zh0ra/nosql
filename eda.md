@@ -55,7 +55,7 @@ Both Database calculated 1157100 rows.
 
 Task 2c. Create some simple Aggregation on both Databases.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - -
-So! Now I created simple aggregation function it's the group function wich well  aggregate each type of "Event Clearance Group" and calculate how many types(and rows that types) of "Event Clearance Group" we have in collection.
+So! Now I created simple aggregation function it's the group function wich to aggregate each type of "Event Clearance Group" and calculate how many types(and rows that types) of "Event Clearance Group" we have in collection.
 Here the grouping script:
 ![q1_group](scripts/q1_group.js)   
 Ok! Then we should to apply this command in bash:
