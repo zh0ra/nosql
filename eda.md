@@ -55,9 +55,9 @@ Both Database calculated 1157100 rows.
 
 Task 2c. Create some simple Aggregation on both Databases.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - -
-So! Now I created simple aggregation function it's the group function wich to aggregate each type of "Event Clearance Group" and calculate how many types(and rows that types) of "Event Clearance Group" we have in collection.
+So! Now I created simple aggregation function it's the group function witch  aggregates each type of "Event Clearance Group" and calculates how many types(and rows those types) of "Event Clearance Group" we have in collection.
 
-[Here the grouping script](scripts/q1_group.js):
+[Here is the grouping script](scripts/q1_group.js):
 
 ```javascript
 var connect = new Mongo();
@@ -72,11 +72,11 @@ var group = function(){
 group();
 ```
 
-Ok! Then we should to apply this command in bash:
+Ok! Then we should apply this command in bash:
 
 mongo --quiet q1_group.js > result_group_q1.json
 
-Finally, we have the such [result](scripts/result_group_q1.json):
+Finally, we have such [result](scripts/result_group_q1.json):
 ```JSON
 [
 	{
