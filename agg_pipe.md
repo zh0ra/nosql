@@ -12,8 +12,13 @@ witch has 1157100 records.
 
 Aggregation tasks:
 
-1. First aggregation. For example, we want to know all places (coordinates) where were AUTO THEFTS.
-2. Second aggregation. 
+1. First aggregation.
+I' ll be using collection from my previous research (EDA) it's Police 911 report
+witch has 1157100 records. For example, we want to know all places (coordinates)
+ where were AUTO THEFTS.
+
+2. Second aggregation.
+
 3. Third aggregation.
 
 
