@@ -112,5 +112,8 @@ ORDER BY
 
 Task 2d. Working with GeoJSON objects.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - -
+I try to use dataset Seattle Police Department
+
+
 
 Find in Internet GeoJSON objects, import to database and create 4 geospatial queries(at list forPoint, LineString and Polygon)

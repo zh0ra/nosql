@@ -3,12 +3,12 @@
 
 Rozwiązania zadań z przedmiotu *Bazy NoSQL*:
 
-1. [Zaliczenie](zaliczenie.md):
+1. [Zaliczenie]
  - [ ] Neo4j
  - [x] [EDA](eda.md)
-1. [Egzamin](egzamin.md)
- - [ ] Aggregation Pipeline
- - [ ] MapReduce
+1. [Egzamin]
+ - [x] [Aggregation Pipeline](agg_pipe.md)
+ - [ ] [MapReduce](map_reduce.md)
 
 Informacje o komputerze na którym były wykonywane obliczenia:
 
