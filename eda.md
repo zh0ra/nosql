@@ -114,26 +114,24 @@ Task 2d. Working with GeoJSON objects.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - -
 I try to use dataset Seattle Police Department
 OK. For Working with Seattle Police 911 calls dataset I should prepare new a dataset.
-I wrote the [script] (script/places_set.js) for creating some new dataset about coordinates auto theft events in Seattle.
+I wrote the [script](scripts/places_auto_chefts.js) for creating some new dataset about coordinates auto theft events in Seattle.
    ```javascript
    var conn = new Mongo();
    var db = conn.getDB("seatlepd");
    var incedent = db.getCollection("incedent_response_911");
    function getPoint(){
    db.incedent_response_911.find({"Initial Type Subgroup": "AUTO THEFTS"}).limit().forEach( function(myDoc) {
-   //{"_id": myDoc._id, event_type:"????", loc: {"type": "Point", "coordinates": [myDoc.Longitude, myDoc.Latitude]}}
-   printjson( { "_id": myDoc._id,"event_type":"$AUTO THEFTS", "loc" :{"type" : "Point", "coordinates":[ myDoc.Longitude , myDoc.Latitude ]}});
+   printjson( { "_id": myDoc._id,"event_type":"AUTO THEFTS", "loc" :{"type" : "Point", "coordinates":[ myDoc.Latitude , myDoc.Longitude]}});
     } );
    };
    getPoint();
-
    ```
    After that I got the [dataset](scripts/places_auto_chefts.json) from my big Police dataset and I'd import it
    (mongoimport -d seatlepd -c places_auto_thefts --type json --file places_auto_chefts.json ) to my Mongodb for next experiments:
 
 1. The First question of research - We'll find the nearest point to the Seattle
  Police Department Headquarters (610 5th Ave, Seattle, WA 98124,
-    United States(47.6043326,-122.331643)) where was auto theft accident using follow [script](scripts//home/zhora/Projects/nosql/scripts/nearest_spd_auto_cheft.js):
+    United States(47.6043326,-122.331643)) where was auto theft accident using follow [script](scripts/nearest_spd_auto_cheft.js):
     ```javascript
     var conn = new Mongo();
     var db = conn.getDB("seatlepd");
