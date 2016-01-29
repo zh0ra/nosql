@@ -1,0 +1,13 @@
+DBQuery: seatlepd.places -> {
+	"loc" : {
+		"$near" : {
+			"$geometry" : {
+				"type" : "Point",
+				"coordinates" : [
+					47.6043326,
+					-122.331643
+				]
+			}
+		}
+	}
+}
